@@ -1,0 +1,94 @@
+<HTML>
+    <HEAD>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </HEAD>
+    <body>
+    <FORM action="form.php" method="POST">
+    <table width="500">
+ 
+    <tr>
+       <th>기본정보 입력</th> 
+    </tr>
+  
+    <tr>
+    <td>아이디</td>
+    <td width="300"><input type="text" name ="userID"></td>
+    <td width="80">
+        <button>
+        중복확인
+    </button></td>
+    </tr>
+    <tr>
+        <td>비밀번호</td>
+        <td><input type="password" name ="pass"></td>
+        </tr>
+        <tr>
+            <td>비밀번호 확인</td>
+            <td><input type="password" name ="checkPass"></td>
+            </tr>
+<tr>
+<td><br></td>
+</tr>
+<tr>
+    <th>
+        개인정보 입력
+    </th>
+</tr>
+<tr>
+    <td>
+        이름
+    </td>
+    <td>
+        <input type="text" name ="usrName">
+    </td>
+</tr>
+<tr>
+    <td>
+        이메일
+    </td>
+    <td>
+        <input type="email" name="usrEmail">
+    </td>
+    <td>
+        <button>이메일 인증</button>
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td><input type="checkbox" name="emailOk">이메일 수신동의</td>
+</tr>
+<tr>
+    <td></td>
+    <td colspan="2">
+        수신거부 시 일부 서비스에 제한이 있을 수 있습니다. 비밀번호를 초기화 메일 수신 등에 반드시 필요한 정보이므로 정확히 이메일 주소를 입력해주세요.
+    </td>
+</tr>
+<tr>
+    <td>
+        휴대전화번호
+    </td>
+    <td>
+        <input type="number" name="phoneNum">
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td>
+        <input type="checkbox" name="smsOk">
+        SMS 수신 동의
+    </td>
+</tr>
+<tr>
+    <td>        
+    </td>
+    <td>
+        수신거부시 일부 서비스에 제한이 있을 수 있습니다.
+    </td>
+</tr>
+ </table>
+   <td><img src="./img/before.png" width="150" > <img src="./img/next.png" width="250"></td>
+    </FORM >
+    
+    </body>
+    
+    </HTML>
